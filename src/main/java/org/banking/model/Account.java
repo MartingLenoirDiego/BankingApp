@@ -1,6 +1,7 @@
 package org.banking.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class Account {
     @JsonBackReference
     private User user;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "account")
     private List<Transaction> transactions = new ArrayList<Transaction>();
 
