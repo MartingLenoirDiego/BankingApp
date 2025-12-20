@@ -6,7 +6,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-public class Transaction {
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "transaction_type")
+public abstract class Transaction {
     @Id
     @GeneratedValue
     private Long id;
@@ -22,13 +24,7 @@ public class Transaction {
     public Transaction() {
         this.date = LocalDate.from(LocalDateTime.now());
     }
-    public Transaction(Long id, Double amount, LocalDate date,String description, Account account) {
-        this.id = id;
-        this.amount = amount;
-        this.date = LocalDate.from(LocalDateTime.now());
-        this.account = account;
-        this.description = description;
-    }
+
     public Long getId() {
         return id;
     }

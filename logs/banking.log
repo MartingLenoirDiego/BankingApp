@@ -1,18 +1,18 @@
-2025-12-10T14:20:49.475+01:00  INFO 28956 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 28956 (C:\Users\dmart\Desktop\Projects\Banking\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\Banking)
-2025-12-10T14:20:49.480+01:00  INFO 28956 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T14:20:50.051+01:00  INFO 28956 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T14:20:50.089+01:00  INFO 28956 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
-2025-12-10T14:20:50.583+01:00  INFO 28956 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T14:20:50.591+01:00  INFO 28956 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T14:20:50.591+01:00  INFO 28956 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T14:20:50.626+01:00  INFO 28956 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1111 ms
-2025-12-10T14:20:50.726+01:00  INFO 28956 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T14:20:50.774+01:00  INFO 28956 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T14:20:51.089+01:00  INFO 28956 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T14:20:51.114+01:00  INFO 28956 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T14:20:51.265+01:00  INFO 28956 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26f75d9c
-2025-12-10T14:20:51.266+01:00  INFO 28956 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T14:20:51.334+01:00  INFO 28956 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-20T12:54:22.161+01:00  INFO 29436 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 29436 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T12:54:22.170+01:00  INFO 29436 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T12:54:22.791+01:00  INFO 29436 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T12:54:22.840+01:00  INFO 29436 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2025-12-20T12:54:23.284+01:00  INFO 29436 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T12:54:23.297+01:00  INFO 29436 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T12:54:23.297+01:00  INFO 29436 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T12:54:23.343+01:00  INFO 29436 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1132 ms
+2025-12-20T12:54:23.487+01:00  INFO 29436 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T12:54:23.553+01:00  INFO 29436 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T12:54:24.008+01:00  INFO 29436 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T12:54:24.038+01:00  INFO 29436 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T12:54:24.219+01:00  INFO 29436 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1029cf9
+2025-12-20T12:54:24.220+01:00  INFO 29436 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T12:54:24.299+01:00  INFO 29436 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -24,39 +24,37 @@
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-10T14:20:52.011+01:00  INFO 28956 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T14:20:52.085+01:00  INFO 28956 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T14:20:52.140+01:00  INFO 28956 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T14:20:52.225+01:00  WARN 28956 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T14:20:52.443+01:00  INFO 28956 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T14:20:52.448+01:00  INFO 28956 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 3.371 seconds (process running for 6.335)
-2025-12-10T14:20:54.356+01:00  INFO 28956 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T14:20:54.357+01:00  INFO 28956 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T14:20:54.358+01:00  INFO 28956 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-12-10T14:20:54.376+01:00  WARN 28956 --- [Banking] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-12-10T14:26:05.637+01:00  WARN 28956 --- [Banking] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-12-10T14:26:22.536+01:00  WARN 28956 --- [Banking] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-12-10T14:27:07.807+01:00  WARN 28956 --- [Banking] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-12-10T14:27:10.159+01:00  INFO 28956 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T14:27:10.190+01:00  INFO 28956 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T14:27:10.193+01:00  INFO 28956 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T14:27:10.194+01:00  INFO 28956 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T14:27:10.197+01:00  INFO 28956 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T14:27:12.894+01:00  INFO 37356 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 37356 (C:\Users\dmart\Desktop\Projects\Banking\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\Banking)
-2025-12-10T14:27:12.897+01:00  INFO 37356 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T14:27:13.237+01:00  INFO 37356 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T14:27:13.264+01:00  INFO 37356 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
-2025-12-10T14:27:13.479+01:00  INFO 37356 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T14:27:13.485+01:00  INFO 37356 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T14:27:13.485+01:00  INFO 37356 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T14:27:13.512+01:00  INFO 37356 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 587 ms
-2025-12-10T14:27:13.583+01:00  INFO 37356 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T14:27:13.606+01:00  INFO 37356 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T14:27:13.879+01:00  INFO 37356 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T14:27:13.902+01:00  INFO 37356 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T14:27:14.016+01:00  INFO 37356 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d73767e
-2025-12-10T14:27:14.018+01:00  INFO 37356 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T14:27:14.058+01:00  INFO 37356 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-20T12:54:25.034+01:00  INFO 29436 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-20T12:54:25.097+01:00  INFO 29436 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T12:54:25.164+01:00  INFO 29436 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-20T12:54:25.336+01:00  WARN 29436 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-20T12:54:25.592+01:00  INFO 29436 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-20T12:54:25.599+01:00  INFO 29436 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 3.852 seconds (process running for 6.074)
+2025-12-20T12:54:27.741+01:00  INFO 29436 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-20T12:54:27.741+01:00  INFO 29436 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-20T12:54:27.742+01:00  INFO 29436 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-20T14:55:44.879+01:00  WARN 29436 --- [Banking] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-12-20T14:55:56.331+01:00  WARN 29436 --- [Banking] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'accountId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "deposit"]
+2025-12-20T14:57:28.030+01:00  INFO 29436 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-20T14:57:28.059+01:00  INFO 29436 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-20T14:57:28.062+01:00  INFO 29436 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T14:57:28.065+01:00  INFO 29436 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-20T14:57:28.069+01:00  INFO 29436 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T14:57:57.174+01:00  INFO 32964 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 32964 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T14:57:57.177+01:00  INFO 32964 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T14:57:57.668+01:00  INFO 32964 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T14:57:57.714+01:00  INFO 32964 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2025-12-20T14:57:58.161+01:00  INFO 32964 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T14:57:58.176+01:00  INFO 32964 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T14:57:58.176+01:00  INFO 32964 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T14:57:58.211+01:00  INFO 32964 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 990 ms
+2025-12-20T14:57:58.333+01:00  INFO 32964 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T14:57:58.365+01:00  INFO 32964 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T14:57:58.699+01:00  INFO 32964 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T14:57:58.722+01:00  INFO 32964 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T14:57:58.851+01:00  INFO 32964 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36871e98
+2025-12-20T14:57:58.852+01:00  INFO 32964 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T14:57:58.904+01:00  INFO 32964 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -68,26 +66,283 @@
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-10T14:27:14.685+01:00  INFO 37356 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T14:27:14.748+01:00  INFO 37356 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T14:27:14.795+01:00  INFO 37356 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T14:27:14.938+01:00  WARN 37356 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T14:27:15.168+01:00  INFO 37356 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T14:27:15.173+01:00  INFO 37356 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.557 seconds (process running for 2.904)
-2025-12-10T14:27:17.080+01:00  INFO 37356 --- [Banking] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T14:27:17.080+01:00  INFO 37356 --- [Banking] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T14:27:17.081+01:00  INFO 37356 --- [Banking] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-12-10T14:27:56.939+01:00  WARN 37356 --- [Banking] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-12-10T14:30:02.711+01:00  WARN 37356 --- [Banking] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
-2025-12-10T14:30:09.106+01:00  WARN 37356 --- [Banking] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<org.banking.model.User> org.banking.controller.UserController.createUser(org.banking.model.User)]
-2025-12-10T14:30:26.848+01:00  WARN 37356 --- [Banking] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-12-10T14:30:29.400+01:00 ERROR 37356 --- [Banking] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User not found] with root cause
+2025-12-20T14:57:59.349+01:00 ERROR 32964 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+2025-12-20T14:57:59.349+01:00  WARN 32964 --- [Banking] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+2025-12-20T14:57:59.351+01:00  INFO 32964 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-20T14:57:59.518+01:00  INFO 32964 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T14:57:59.520+01:00  INFO 32964 --- [Banking] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-20T14:57:59.524+01:00  INFO 32964 --- [Banking] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
-java.lang.RuntimeException: User not found
-	at org.banking.service.UserService.lambda$getUser$0(UserService.java:26) ~[classes/:na]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
-	at org.banking.service.UserService.getUser(UserService.java:26) ~[classes/:na]
-	at org.banking.controller.UserController.getUser(UserController.java:32) ~[classes/:na]
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-20T14:57:59.532+01:00 ERROR 32964 --- [Banking] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:966) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.banking.BankingApplication.main(BankingApplication.java:10) ~[classes/:na]
+Caused by: jakarta.persistence.PersistenceException: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:428) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 15 common frames omitted
+Caused by: org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.hibernate.persister.entity.SingleTableEntityPersister.addSubclassByDiscriminatorValue(SingleTableEntityPersister.java:346) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:317) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:70) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.processBootEntities(MappingMetamodelImpl.java:214) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:153) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:436) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1459) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.1.jar:7.0.1]
+	... 19 common frames omitted
+
+2025-12-20T14:58:13.213+01:00  INFO 21984 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 21984 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T14:58:13.217+01:00  INFO 21984 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T14:58:13.668+01:00  INFO 21984 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T14:58:13.713+01:00  INFO 21984 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2025-12-20T14:58:14.080+01:00  INFO 21984 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T14:58:14.089+01:00  INFO 21984 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T14:58:14.089+01:00  INFO 21984 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T14:58:14.133+01:00  INFO 21984 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 878 ms
+2025-12-20T14:58:14.242+01:00  INFO 21984 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T14:58:14.280+01:00  INFO 21984 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T14:58:14.596+01:00  INFO 21984 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T14:58:14.617+01:00  INFO 21984 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T14:58:14.735+01:00  INFO 21984 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36871e98
+2025-12-20T14:58:14.735+01:00  INFO 21984 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T14:58:14.788+01:00  INFO 21984 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: banking/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-20T14:58:15.223+01:00 ERROR 21984 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+2025-12-20T14:58:15.223+01:00  WARN 21984 --- [Banking] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+2025-12-20T14:58:15.224+01:00  INFO 21984 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-20T14:58:15.325+01:00  INFO 21984 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T14:58:15.327+01:00  INFO 21984 --- [Banking] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-12-20T14:58:15.332+01:00  INFO 21984 --- [Banking] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-20T14:58:15.338+01:00 ERROR 21984 --- [Banking] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:966) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.banking.BankingApplication.main(BankingApplication.java:10) ~[classes/:na]
+Caused by: jakarta.persistence.PersistenceException: Unable to build Hibernate SessionFactory  [persistence unit: default] ; nested exception is org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:428) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 15 common frames omitted
+Caused by: org.hibernate.MappingException: Entities [org.banking.model.WithdrawalTransaction] and [org.banking.model.DepositTransaction] are mapped with the same discriminator value 'DEPOSIT'.
+	at org.hibernate.persister.entity.SingleTableEntityPersister.addSubclassByDiscriminatorValue(SingleTableEntityPersister.java:346) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:317) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:70) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.processBootEntities(MappingMetamodelImpl.java:214) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:153) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:436) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1459) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.1.jar:7.0.1]
+	... 19 common frames omitted
+
+2025-12-20T14:59:31.848+01:00  INFO 6360 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 6360 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T14:59:31.852+01:00  INFO 6360 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T14:59:32.300+01:00  INFO 6360 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T14:59:32.340+01:00  INFO 6360 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2025-12-20T14:59:32.733+01:00  INFO 6360 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T14:59:32.741+01:00  INFO 6360 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T14:59:32.741+01:00  INFO 6360 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T14:59:32.786+01:00  INFO 6360 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 899 ms
+2025-12-20T14:59:32.905+01:00  INFO 6360 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T14:59:32.946+01:00  INFO 6360 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T14:59:33.313+01:00  INFO 6360 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T14:59:33.339+01:00  INFO 6360 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T14:59:33.484+01:00  INFO 6360 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a7a6d34
+2025-12-20T14:59:33.485+01:00  INFO 6360 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T14:59:33.541+01:00  INFO 6360 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: banking/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-20T14:59:34.143+01:00  INFO 6360 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-20T14:59:34.176+01:00  WARN 6360 --- [Banking] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table if exists transaction 
+       add column transaction_type varchar(31) not null check ((transaction_type in ('DEPOSIT','TRANSFER','WITHDRAWAL')))" via JDBC [ERROR: column "transaction_type" of relation "transaction" contains null values]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table if exists transaction 
+       add column transaction_type varchar(31) not null check ((transaction_type in ('DEPOSIT','TRANSFER','WITHDRAWAL')))" via JDBC [ERROR: column "transaction_type" of relation "transaction" contains null values]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:573) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:513) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:331) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:82) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:230) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:109) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:267) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:436) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1459) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:966) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.banking.BankingApplication.main(BankingApplication.java:10) ~[classes/:na]
+Caused by: org.postgresql.util.PSQLException: ERROR: column "transaction_type" of relation "transaction" contains null values
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313) ~[postgresql-42.7.8.jar:42.7.8]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	... 37 common frames omitted
+
+2025-12-20T14:59:34.205+01:00  INFO 6360 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T14:59:34.258+01:00  INFO 6360 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-20T14:59:34.450+01:00  WARN 6360 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-20T14:59:34.668+01:00  INFO 6360 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-20T14:59:34.673+01:00  INFO 6360 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 3.181 seconds (process running for 3.427)
+2025-12-20T14:59:40.596+01:00  INFO 6360 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-20T14:59:40.596+01:00  INFO 6360 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-20T14:59:40.597+01:00  INFO 6360 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-20T14:59:40.755+01:00  WARN 6360 --- [Banking] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 42703
+2025-12-20T14:59:40.755+01:00  WARN 6360 --- [Banking] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.error             : ERROR: column "transaction_type" of relation "transaction" does not exist
+  Position : 61
+2025-12-20T14:59:40.763+01:00 ERROR 6360 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: column "transaction_type" of relation "transaction" does not exist
+  Position : 61] [insert into transaction (account_id,amount,date,description,transaction_type,id) values (?,?,?,?,'DEPOSIT',?)]; SQL [insert into transaction (account_id,amount,date,description,transaction_type,id) values (?,?,?,?,'DEPOSIT',?)]] with root cause
+
+org.postgresql.util.PSQLException: ERROR: column "transaction_type" of relation "transaction" does not exist
+  Position : 61
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2736) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157) ~[postgresql-42.7.8.jar:42.7.8]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:190) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:148) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:191) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:129) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:101) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:113) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:646) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:513) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:378) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:140) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1447) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:488) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2325) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:394) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:249) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:243) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:90) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553) ~[spring-orm-7.0.1.jar:7.0.1]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-7.0.1.jar:7.0.1]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-7.0.1.jar:7.0.1]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:684) ~[spring-tx-7.0.1.jar:7.0.1]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:406) ~[spring-tx-7.0.1.jar:7.0.1]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-7.0.1.jar:7.0.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.1.jar:7.0.1]
+	at org.banking.service.impl.TransactionServiceImpl$$SpringCGLIB$$0.deposit(<generated>) ~[classes/:na]
+	at org.banking.controller.TransactionController.deposit(TransactionController.java:23) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -101,8 +356,8 @@ java.lang.RuntimeException: User not found
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.14.jar:6.1]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
@@ -134,33 +389,65 @@ java.lang.RuntimeException: User not found
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2025-12-10T14:30:48.141+01:00 ERROR 37356 --- [Banking] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned] with root cause
+2025-12-20T15:00:26.447+01:00  INFO 6360 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-20T15:00:26.478+01:00  INFO 6360 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-20T15:00:26.480+01:00  INFO 6360 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T15:00:26.482+01:00  INFO 6360 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-20T15:00:26.484+01:00  INFO 6360 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T15:00:27.937+01:00  INFO 8132 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 8132 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T15:00:27.943+01:00  INFO 8132 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T15:00:28.391+01:00  INFO 8132 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T15:00:28.438+01:00  INFO 8132 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-12-20T15:00:28.816+01:00  INFO 8132 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T15:00:28.826+01:00  INFO 8132 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T15:00:28.826+01:00  INFO 8132 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T15:00:28.857+01:00  INFO 8132 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 869 ms
+2025-12-20T15:00:28.967+01:00  INFO 8132 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T15:00:29.001+01:00  INFO 8132 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T15:00:29.313+01:00  INFO 8132 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T15:00:29.333+01:00  INFO 8132 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T15:00:29.561+01:00  INFO 8132 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36871e98
+2025-12-20T15:00:29.563+01:00  INFO 8132 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T15:00:29.612+01:00  INFO 8132 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: banking/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-20T15:00:30.208+01:00  INFO 8132 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-20T15:00:30.262+01:00  INFO 8132 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T15:00:30.309+01:00  INFO 8132 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-20T15:00:30.503+01:00  WARN 8132 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-20T15:00:30.718+01:00  INFO 8132 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-20T15:00:30.723+01:00  INFO 8132 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 3.196 seconds (process running for 3.469)
+2025-12-20T15:00:41.301+01:00  INFO 8132 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-20T15:00:41.301+01:00  INFO 8132 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-20T15:00:41.302+01:00  INFO 8132 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-20T15:00:41.427+01:00 ERROR 8132 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: account not found] with root cause
 
-org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
-	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:305) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
-	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResultOrNull(AbstractSelectionQuery.java:320) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:328) ~[spring-data-jpa-4.0.0.jar:4.0.0]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:99) ~[spring-data-jpa-4.0.0.jar:4.0.0]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:164) ~[spring-data-jpa-4.0.0.jar:4.0.0]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:154) ~[spring-data-jpa-4.0.0.jar:4.0.0]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.0.jar:4.0.0]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.0.jar:4.0.0]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:167) ~[spring-data-commons-4.0.0.jar:4.0.0]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.0.jar:4.0.0]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.0.jar:4.0.0]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
+java.lang.RuntimeException: account not found
+	at org.banking.service.impl.TransactionServiceImpl.lambda$deposit$0(TransactionServiceImpl.java:28) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.banking.service.impl.TransactionServiceImpl.deposit(TransactionServiceImpl.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.1.jar:7.0.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.1.jar:7.0.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.1.jar:7.0.1]
 	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370) ~[spring-tx-7.0.1.jar:7.0.1]
 	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-7.0.1.jar:7.0.1]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.1.jar:7.0.1]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:137) ~[spring-data-jpa-4.0.0.jar:4.0.0]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.1.jar:7.0.1]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.1.jar:7.0.1]
-	at jdk.proxy2/jdk.proxy2.$Proxy130.findByEmail(Unknown Source) ~[na:na]
-	at org.banking.service.UserService.getUser(UserService.java:25) ~[classes/:na]
-	at org.banking.controller.UserController.getUser(UserController.java:32) ~[classes/:na]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.1.jar:7.0.1]
+	at org.banking.service.impl.TransactionServiceImpl$$SpringCGLIB$$0.deposit(<generated>) ~[classes/:na]
+	at org.banking.controller.TransactionController.deposit(TransactionController.java:23) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
@@ -174,8 +461,8 @@ org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.14.jar:6.1]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
@@ -207,26 +494,27 @@ org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-2025-12-10T14:32:01.597+01:00  INFO 37356 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T14:32:01.627+01:00  INFO 37356 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T14:32:01.630+01:00  INFO 37356 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T14:32:01.631+01:00  INFO 37356 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T14:32:01.634+01:00  INFO 37356 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T14:32:04.103+01:00  INFO 13268 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 13268 (C:\Users\dmart\Desktop\Projects\Banking\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\Banking)
-2025-12-10T14:32:04.105+01:00  INFO 13268 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T14:32:04.404+01:00  INFO 13268 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T14:32:04.431+01:00  INFO 13268 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
-2025-12-10T14:32:04.633+01:00  INFO 13268 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T14:32:04.640+01:00  INFO 13268 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T14:32:04.640+01:00  INFO 13268 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T14:32:04.703+01:00  INFO 13268 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 574 ms
-2025-12-10T14:32:04.774+01:00  INFO 13268 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T14:32:04.796+01:00  INFO 13268 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T14:32:05.005+01:00  INFO 13268 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T14:32:05.021+01:00  INFO 13268 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T14:32:05.111+01:00  INFO 13268 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d32c1c7
-2025-12-10T14:32:05.111+01:00  INFO 13268 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T14:32:05.148+01:00  INFO 13268 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-20T15:00:52.866+01:00  INFO 8132 --- [Banking] [http-nio-8080-exec-5] org.banking.service.AccountService       : Account 1 create for user : null
+2025-12-20T15:10:20.277+01:00  INFO 8132 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-20T15:10:20.304+01:00  INFO 8132 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-20T15:10:20.306+01:00  INFO 8132 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T15:10:20.308+01:00  INFO 8132 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-20T15:10:20.310+01:00  INFO 8132 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T15:10:22.573+01:00  INFO 4608 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 4608 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
+2025-12-20T15:10:22.577+01:00  INFO 4608 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-12-20T15:10:23.043+01:00  INFO 4608 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-20T15:10:23.079+01:00  INFO 4608 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2025-12-20T15:10:23.423+01:00  INFO 4608 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-20T15:10:23.436+01:00  INFO 4608 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-20T15:10:23.436+01:00  INFO 4608 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-20T15:10:23.476+01:00  INFO 4608 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 862 ms
+2025-12-20T15:10:23.578+01:00  INFO 4608 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-20T15:10:23.615+01:00  INFO 4608 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-20T15:10:23.945+01:00  INFO 4608 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-20T15:10:23.971+01:00  INFO 4608 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-20T15:10:24.084+01:00  INFO 4608 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ab455e2
+2025-12-20T15:10:24.085+01:00  INFO 4608 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-20T15:10:24.128+01:00  INFO 4608 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -238,304 +526,12 @@ org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-10T14:32:05.660+01:00  INFO 13268 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T14:32:05.718+01:00  INFO 13268 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T14:32:05.776+01:00  INFO 13268 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T14:32:05.912+01:00  WARN 13268 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T14:32:06.137+01:00  INFO 13268 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T14:32:06.142+01:00  INFO 13268 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.314 seconds (process running for 2.638)
-2025-12-10T14:34:31.495+01:00  INFO 13268 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T14:34:31.496+01:00  INFO 13268 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T14:34:31.496+01:00  INFO 13268 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-12-10T15:43:29.588+01:00  INFO 13268 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T15:43:29.622+01:00  INFO 13268 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T15:43:29.627+01:00  INFO 13268 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:43:29.630+01:00  INFO 13268 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T15:43:29.635+01:00  INFO 13268 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T15:43:39.996+01:00  INFO 17216 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 17216 (C:\Users\dmart\Desktop\Projects\Banking\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\Banking)
-2025-12-10T15:43:39.999+01:00  INFO 17216 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T15:43:40.373+01:00  INFO 17216 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T15:43:40.413+01:00  INFO 17216 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
-2025-12-10T15:43:40.707+01:00  INFO 17216 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T15:43:40.717+01:00  INFO 17216 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T15:43:40.717+01:00  INFO 17216 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T15:43:40.757+01:00  INFO 17216 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 729 ms
-2025-12-10T15:43:40.852+01:00  INFO 17216 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T15:43:40.886+01:00  INFO 17216 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T15:43:41.182+01:00  INFO 17216 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T15:43:41.204+01:00  INFO 17216 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T15:43:41.323+01:00  INFO 17216 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c41b8d8
-2025-12-10T15:43:41.324+01:00  INFO 17216 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T15:43:41.367+01:00  INFO 17216 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T15:43:42.022+01:00  INFO 17216 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T15:43:42.081+01:00  INFO 17216 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:43:42.131+01:00  INFO 17216 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T15:43:42.272+01:00  WARN 17216 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T15:43:42.483+01:00  INFO 17216 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T15:43:42.487+01:00  INFO 17216 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.776 seconds (process running for 3.109)
-2025-12-10T15:44:14.339+01:00  INFO 17216 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T15:44:14.339+01:00  INFO 17216 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T15:44:14.340+01:00  INFO 17216 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-12-10T15:44:21.474+01:00  WARN 17216 --- [Banking] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-12-10T15:44:24.920+01:00  WARN 17216 --- [Banking] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<org.banking.model.Account> org.banking.controller.AccountController.addAccount(java.lang.Long,org.banking.model.Account)]
-2025-12-10T15:45:10.895+01:00  INFO 17216 --- [Banking] [http-nio-8080-exec-6] org.banking.service.AccountService       : Account 1 create for user : null
-2025-12-10T15:45:10.905+01:00  WARN 17216 --- [Banking] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)
-2025-12-10T15:45:10.905+01:00  WARN 17216 --- [Banking] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)]
-2025-12-10T15:46:40.040+01:00  INFO 17216 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T15:46:40.070+01:00  INFO 17216 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T15:46:40.073+01:00  INFO 17216 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:46:40.074+01:00  INFO 17216 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T15:46:40.077+01:00  INFO 17216 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T15:46:43.096+01:00  INFO 22236 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 22236 (C:\Users\dmart\Desktop\Projects\Banking\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\Banking)
-2025-12-10T15:46:43.099+01:00  INFO 22236 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T15:46:43.475+01:00  INFO 22236 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T15:46:43.518+01:00  INFO 22236 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
-2025-12-10T15:46:43.758+01:00  INFO 22236 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T15:46:43.767+01:00  INFO 22236 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T15:46:43.767+01:00  INFO 22236 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T15:46:43.802+01:00  INFO 22236 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 673 ms
-2025-12-10T15:46:43.893+01:00  INFO 22236 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T15:46:43.927+01:00  INFO 22236 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T15:46:44.185+01:00  INFO 22236 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T15:46:44.204+01:00  INFO 22236 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T15:46:44.414+01:00  INFO 22236 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e6522a6
-2025-12-10T15:46:44.415+01:00  INFO 22236 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T15:46:44.458+01:00  INFO 22236 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T15:46:45.079+01:00  INFO 22236 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T15:46:45.140+01:00  INFO 22236 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:46:45.185+01:00  INFO 22236 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T15:46:45.305+01:00  WARN 22236 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T15:46:45.500+01:00  INFO 22236 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T15:46:45.505+01:00  INFO 22236 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.733 seconds (process running for 3.129)
-2025-12-10T15:46:55.747+01:00  INFO 22236 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T15:46:55.747+01:00  INFO 22236 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T15:46:55.748+01:00  INFO 22236 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-12-10T15:46:55.914+01:00  INFO 22236 --- [Banking] [http-nio-8080-exec-2] org.banking.service.AccountService       : Account 2 create for user : null
-2025-12-10T15:48:34.509+01:00  WARN 22236 --- [Banking] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-12-10T15:51:32.792+01:00  INFO 22236 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T15:51:32.820+01:00  INFO 22236 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T15:51:32.823+01:00  INFO 22236 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:51:32.824+01:00  INFO 22236 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T15:51:32.826+01:00  INFO 22236 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T15:56:23.337+01:00  INFO 34040 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 34040 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
-2025-12-10T15:56:23.339+01:00  INFO 34040 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T15:56:23.726+01:00  INFO 34040 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T15:56:23.760+01:00  INFO 34040 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
-2025-12-10T15:56:24.041+01:00  INFO 34040 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T15:56:24.051+01:00  INFO 34040 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T15:56:24.051+01:00  INFO 34040 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T15:56:24.084+01:00  INFO 34040 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 716 ms
-2025-12-10T15:56:24.161+01:00  INFO 34040 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T15:56:24.185+01:00  INFO 34040 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T15:56:24.447+01:00  INFO 34040 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T15:56:24.467+01:00  INFO 34040 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T15:56:24.566+01:00  INFO 34040 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ecb9e17
-2025-12-10T15:56:24.568+01:00  INFO 34040 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T15:56:24.614+01:00  INFO 34040 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T15:56:25.301+01:00  INFO 34040 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T15:56:25.367+01:00  INFO 34040 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:56:25.411+01:00  INFO 34040 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T15:56:25.537+01:00  WARN 34040 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T15:56:25.737+01:00  INFO 34040 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T15:56:25.740+01:00  INFO 34040 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.846 seconds (process running for 3.443)
-2025-12-10T15:56:36.595+01:00  INFO 34040 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T15:56:36.595+01:00  INFO 34040 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T15:56:36.597+01:00  INFO 34040 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-12-10T15:57:42.962+01:00  INFO 34040 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T15:57:42.993+01:00  INFO 34040 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T15:57:42.996+01:00  INFO 34040 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T15:57:42.997+01:00  INFO 34040 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T15:57:42.998+01:00  INFO 34040 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T18:42:08.800+01:00  INFO 32660 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 32660 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
-2025-12-10T18:42:08.802+01:00  INFO 32660 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T18:42:09.146+01:00  INFO 32660 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T18:42:09.178+01:00  INFO 32660 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
-2025-12-10T18:42:09.403+01:00  INFO 32660 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T18:42:09.411+01:00  INFO 32660 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T18:42:09.411+01:00  INFO 32660 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T18:42:09.441+01:00  INFO 32660 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 613 ms
-2025-12-10T18:42:09.514+01:00  INFO 32660 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T18:42:09.540+01:00  INFO 32660 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T18:42:09.745+01:00  INFO 32660 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T18:42:09.760+01:00  INFO 32660 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T18:42:09.847+01:00  INFO 32660 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a54c92e
-2025-12-10T18:42:09.848+01:00  INFO 32660 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T18:42:09.886+01:00  INFO 32660 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T18:42:10.400+01:00  INFO 32660 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T18:42:10.451+01:00  INFO 32660 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:42:10.499+01:00  INFO 32660 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T18:42:10.614+01:00  WARN 32660 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T18:42:10.814+01:00  INFO 32660 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T18:42:10.819+01:00  INFO 32660 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.291 seconds (process running for 2.655)
-2025-12-10T18:43:15.855+01:00  INFO 32660 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T18:43:15.855+01:00  INFO 32660 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T18:43:15.857+01:00  INFO 32660 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-12-10T18:43:38.348+01:00  INFO 32660 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T18:43:38.374+01:00  INFO 32660 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T18:43:38.378+01:00  INFO 32660 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:43:38.379+01:00  INFO 32660 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T18:43:38.380+01:00  INFO 32660 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T18:43:41.034+01:00  INFO 24880 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 24880 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
-2025-12-10T18:43:41.037+01:00  INFO 24880 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T18:43:41.407+01:00  INFO 24880 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T18:43:41.449+01:00  INFO 24880 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
-2025-12-10T18:43:41.703+01:00  INFO 24880 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T18:43:41.712+01:00  INFO 24880 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T18:43:41.712+01:00  INFO 24880 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T18:43:41.745+01:00  INFO 24880 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 680 ms
-2025-12-10T18:43:41.845+01:00  INFO 24880 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T18:43:41.875+01:00  INFO 24880 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T18:43:42.122+01:00  INFO 24880 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T18:43:42.140+01:00  INFO 24880 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T18:43:42.232+01:00  INFO 24880 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ff542a3
-2025-12-10T18:43:42.233+01:00  INFO 24880 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T18:43:42.270+01:00  INFO 24880 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T18:43:42.829+01:00  INFO 24880 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T18:43:42.884+01:00  INFO 24880 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:43:42.921+01:00  INFO 24880 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T18:43:43.030+01:00  WARN 24880 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T18:43:43.215+01:00  INFO 24880 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T18:43:43.219+01:00  INFO 24880 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.489 seconds (process running for 2.88)
-2025-12-10T18:43:49.048+01:00  INFO 24880 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T18:43:49.048+01:00  INFO 24880 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T18:43:49.048+01:00  INFO 24880 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-12-10T18:53:26.319+01:00  INFO 24880 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T18:53:26.348+01:00  INFO 24880 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T18:53:26.351+01:00  INFO 24880 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:53:26.353+01:00  INFO 24880 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T18:53:26.354+01:00  INFO 24880 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T18:53:30.839+01:00  INFO 9532 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 9532 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
-2025-12-10T18:53:30.842+01:00  INFO 9532 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T18:53:31.240+01:00  INFO 9532 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T18:53:31.273+01:00  INFO 9532 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
-2025-12-10T18:53:31.479+01:00  INFO 9532 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T18:53:31.487+01:00  INFO 9532 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T18:53:31.487+01:00  INFO 9532 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T18:53:31.525+01:00  INFO 9532 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 653 ms
-2025-12-10T18:53:31.611+01:00  INFO 9532 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T18:53:31.637+01:00  INFO 9532 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T18:53:31.869+01:00  INFO 9532 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T18:53:31.890+01:00  INFO 9532 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T18:53:32.008+01:00  INFO 9532 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a3316b6
-2025-12-10T18:53:32.009+01:00  INFO 9532 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T18:53:32.049+01:00  INFO 9532 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T18:53:32.767+01:00  INFO 9532 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T18:53:32.829+01:00  INFO 9532 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:53:32.873+01:00  INFO 9532 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T18:53:32.994+01:00  WARN 9532 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T18:53:33.184+01:00  INFO 9532 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T18:53:33.189+01:00  INFO 9532 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.663 seconds (process running for 3.398)
-2025-12-10T18:53:51.414+01:00  INFO 9532 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T18:53:51.414+01:00  INFO 9532 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T18:53:51.416+01:00  INFO 9532 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-12-10T18:56:47.050+01:00  INFO 9532 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T18:56:47.080+01:00  INFO 9532 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T18:56:47.082+01:00  INFO 9532 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:56:47.084+01:00  INFO 9532 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T18:56:47.086+01:00  INFO 9532 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10T18:56:49.802+01:00  INFO 13316 --- [Banking] [main] org.banking.BankingApplication           : Starting BankingApplication using Java 17.0.17 with PID 13316 (C:\Users\dmart\Desktop\Projects\BankingApp\target\classes started by dmart in C:\Users\dmart\Desktop\Projects\BankingApp)
-2025-12-10T18:56:49.805+01:00  INFO 13316 --- [Banking] [main] org.banking.BankingApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-12-10T18:56:50.166+01:00  INFO 13316 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10T18:56:50.199+01:00  INFO 13316 --- [Banking] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
-2025-12-10T18:56:50.413+01:00  INFO 13316 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10T18:56:50.420+01:00  INFO 13316 --- [Banking] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10T18:56:50.420+01:00  INFO 13316 --- [Banking] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10T18:56:50.450+01:00  INFO 13316 --- [Banking] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 616 ms
-2025-12-10T18:56:50.524+01:00  INFO 13316 --- [Banking] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10T18:56:50.548+01:00  INFO 13316 --- [Banking] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10T18:56:50.769+01:00  INFO 13316 --- [Banking] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10T18:56:50.786+01:00  INFO 13316 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10T18:56:50.875+01:00  INFO 13316 --- [Banking] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f166f2e
-2025-12-10T18:56:50.876+01:00  INFO 13316 --- [Banking] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10T18:56:50.914+01:00  INFO 13316 --- [Banking] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:postgresql://localhost:5432/banking]
-	Database driver: PostgreSQL JDBC Driver
-	Database dialect: PostgreSQLDialect
-	Database version: 18.1
-	Default catalog/schema: banking/public
-	Autocommit mode: undefined/unknown
-	Isolation level: READ_COMMITTED [default READ_COMMITTED]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-10T18:56:51.471+01:00  INFO 13316 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10T18:56:51.525+01:00  INFO 13316 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T18:56:51.574+01:00  INFO 13316 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10T18:56:51.693+01:00  WARN 13316 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-10T18:56:51.857+01:00  INFO 13316 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-10T18:56:51.861+01:00  INFO 13316 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 2.369 seconds (process running for 2.764)
-2025-12-10T18:57:17.320+01:00  INFO 13316 --- [Banking] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-10T18:57:17.320+01:00  INFO 13316 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-10T18:57:17.321+01:00  INFO 13316 --- [Banking] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-12-10T20:14:18.181+01:00  INFO 13316 --- [Banking] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-10T20:14:18.213+01:00  INFO 13316 --- [Banking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-10T20:14:18.216+01:00  INFO 13316 --- [Banking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10T20:14:18.218+01:00  INFO 13316 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10T20:14:18.219+01:00  INFO 13316 --- [Banking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-20T15:10:24.723+01:00  INFO 4608 --- [Banking] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-20T15:10:24.778+01:00  INFO 4608 --- [Banking] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-20T15:10:24.840+01:00  INFO 4608 --- [Banking] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-20T15:10:25.375+01:00  WARN 4608 --- [Banking] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-20T15:10:25.675+01:00  INFO 4608 --- [Banking] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-20T15:10:25.680+01:00  INFO 4608 --- [Banking] [main] org.banking.BankingApplication           : Started BankingApplication in 3.448 seconds (process running for 3.694)
+2025-12-20T15:10:28.572+01:00  INFO 4608 --- [Banking] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-20T15:10:28.572+01:00  INFO 4608 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-20T15:10:28.574+01:00  INFO 4608 --- [Banking] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

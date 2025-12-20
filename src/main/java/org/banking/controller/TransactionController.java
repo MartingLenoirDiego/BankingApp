@@ -1,5 +1,6 @@
 package org.banking.controller;
 
+import org.banking.dto.DepositRequest;
 import org.banking.model.Transaction;
 import org.banking.service.TransactionService;
 import org.springframework.http.ResponseEntity;
@@ -10,23 +11,20 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/transactions")
 public class TransactionController {
-    private TransactionService transactionService;
+
+    private final TransactionService transactionService;
+
     public TransactionController(TransactionService transactionService) {
         this.transactionService = transactionService;
     }
 
-    @PostMapping("/{accountId}")
-    public ResponseEntity<Transaction> addTransaction(@PathVariable Long accountId, @RequestBody Transaction transactionRequest) {
-        Transaction saved = transactionService.addTransaction(
-                accountId,
-                transactionRequest.getAmount(),
-                transactionRequest.getDescription()
-        );
-        return ResponseEntity.ok(saved);
+    @PostMapping("/deposit")
+    public Transaction deposit(@RequestBody DepositRequest transaction) {
+        return transactionService.deposit(transaction.getAccountId(),transaction.getAmount(),transaction.getDescription());
     }
 
     @GetMapping
-    public ResponseEntity<List<Transaction>> getTransactions(@RequestParam Long accountId) {
-        return ResponseEntity.ok(transactionService.getTransactions(accountId));
+    public List<Transaction> getAllTransactions(@RequestParam Long accountId){
+        return transactionService.getAllTransactions(accountId);
     }
 }
