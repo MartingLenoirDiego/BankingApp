@@ -14,4 +14,9 @@ public class WithdrawalTransaction extends Transaction {
         setDescription(description);
         setAccount(account);
     }
+
+    @Override
+    public TransactionType getType() {
+        return TransactionType.WITHDRAWAL;
+    }
 }

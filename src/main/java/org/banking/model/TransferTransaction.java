@@ -21,4 +21,7 @@ public class TransferTransaction extends Transaction {
         this.targetAccount = targetAccount;
     }
 
+    public TransactionType getType() {
+        return TransactionType.TRANSFERT;
+    }
 }

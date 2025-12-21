@@ -1,6 +1,7 @@
 package org.banking.controller;
 
 import org.banking.dto.DepositRequest;
+import org.banking.dto.WithdrawRequest;
 import org.banking.model.Transaction;
 import org.banking.service.TransactionService;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,11 @@ public class TransactionController {
     @PostMapping("/deposit")
     public Transaction deposit(@RequestBody DepositRequest transaction) {
         return transactionService.deposit(transaction.getAccountId(),transaction.getAmount(),transaction.getDescription());
+    }
+
+    @PostMapping("/withdraw")
+    public Transaction withdraw(@RequestBody WithdrawRequest transaction) {
+        return transactionService.withdrawal(transaction.getAccountId(), transaction.getAmount(),transaction.getDescription());
     }
 
     @GetMapping

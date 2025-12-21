@@ -15,4 +15,8 @@ public class DepositTransaction extends Transaction {
         setAccount(account);
     }
 
+    @Override
+    public TransactionType getType() {
+        return TransactionType.DEPOSIT;
+    }
 }

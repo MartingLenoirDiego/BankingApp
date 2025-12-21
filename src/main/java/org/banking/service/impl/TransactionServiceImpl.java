@@ -3,6 +3,7 @@ package org.banking.service.impl;
 import org.banking.model.Account;
 import org.banking.model.DepositTransaction;
 import org.banking.model.Transaction;
+import org.banking.model.WithdrawalTransaction;
 import org.banking.repository.AccountRepository;
 import org.banking.repository.TransactionRepository;
 import org.banking.service.TransactionService;
@@ -33,6 +34,18 @@ public class TransactionServiceImpl implements TransactionService {
         DepositTransaction depositTransaction = new DepositTransaction(amount, description, account);
         transactionRepository.save(depositTransaction);
         return depositTransaction;
+    }
+
+    @Override
+    public Transaction withdrawal(Long accountId, Double amount, String description){
+        if(amount <= 0){
+            throw new IllegalArgumentException("Amount must be greater than zero");
+        }
+        Account account = accountRepository.findById(accountId).orElseThrow(() -> new RuntimeException("account not found"));
+        account.setBalance(account.getBalance()-amount);
+        WithdrawalTransaction withdrawalTransaction = new WithdrawalTransaction(amount, description, account);
+        transactionRepository.save(withdrawalTransaction);
+        return withdrawalTransaction;
     }
 
     @Override

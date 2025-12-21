@@ -8,5 +8,7 @@ public interface TransactionService{
 
     Transaction deposit(Long accountId, Double amount, String description);
 
+    Transaction withdrawal(Long accountId, Double amount, String description);
+
     List<Transaction> getAllTransactions(Long accountId);
 }

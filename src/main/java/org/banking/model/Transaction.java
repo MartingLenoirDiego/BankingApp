@@ -21,6 +21,9 @@ public abstract class Transaction {
     @JoinColumn(name = "account_id")
     private Account account;
 
+    @Transient
+    public abstract TransactionType getType();
+
     public Transaction() {
         this.date = LocalDate.from(LocalDateTime.now());
     }
