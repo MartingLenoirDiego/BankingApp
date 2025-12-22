@@ -10,5 +10,7 @@ public interface TransactionService{
 
     Transaction withdrawal(Long accountId, Double amount, String description);
 
+    Transaction transfer(Long accountId,Long accountTarget, Double amount, String description);
+
     List<Transaction> getAllTransactions(Long accountId);
 }

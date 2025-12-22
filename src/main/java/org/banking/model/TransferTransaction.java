@@ -13,6 +13,16 @@ public class TransferTransaction extends Transaction {
     @JoinColumn(name = "target_account_id")
     private Account targetAccount;
 
+    protected TransferTransaction() {
+    }
+
+    public TransferTransaction(Double amount, String description, Account account, Account targetAccount) {
+        setAmount(amount);
+        setDescription(description);
+        setAccount(account);
+        this.targetAccount=targetAccount;
+    }
+
     public Account getTargetAccount() {
         return targetAccount;
     }

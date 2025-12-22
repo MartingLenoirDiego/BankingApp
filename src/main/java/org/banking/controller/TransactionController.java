@@ -1,6 +1,7 @@
 package org.banking.controller;
 
 import org.banking.dto.DepositRequest;
+import org.banking.dto.TransferRequest;
 import org.banking.dto.WithdrawRequest;
 import org.banking.model.Transaction;
 import org.banking.service.TransactionService;
@@ -33,6 +34,12 @@ public class TransactionController {
     public Transaction withdraw(@RequestBody WithdrawRequest transaction) {
         logger.info("Withdraw request: accountId={}, amount={}", transaction.getAccountId(), transaction.getAmount());
         return transactionService.withdrawal(transaction.getAccountId(), transaction.getAmount(),transaction.getDescription());
+    }
+
+    @PostMapping("/transfer")
+    public Transaction transfer(@RequestBody TransferRequest transaction) {
+        logger.info("Transaction request: accountId={}, target={}, amount={}", transaction.getAccountId(),transaction.getTargetAccountId(), transaction.getAmount());
+        return transactionService.transfer(transaction.getAccountId(),transaction.getTargetAccountId(),transaction.getAmount(),transaction.getDescription());
     }
 
     @GetMapping

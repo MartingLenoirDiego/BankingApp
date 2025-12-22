@@ -1,9 +1,6 @@
 package org.banking.service.impl;
 
-import org.banking.model.Account;
-import org.banking.model.DepositTransaction;
-import org.banking.model.Transaction;
-import org.banking.model.WithdrawalTransaction;
+import org.banking.model.*;
 import org.banking.repository.AccountRepository;
 import org.banking.repository.TransactionRepository;
 import org.banking.service.TransactionService;
@@ -59,6 +56,31 @@ public class TransactionServiceImpl implements TransactionService {
         transactionRepository.save(withdrawalTransaction);
         log.info("withdrawal transaction success.");
         return withdrawalTransaction;
+    }
+
+    @Override
+    public Transaction transfer(Long accountId, Long accountTarget, Double amount, String description){
+        if(amount <= 0){
+            log.error("Amount must be greater than zero");
+            throw new IllegalArgumentException("Amount must be greater than zero");
+        }
+        Account account = accountRepository.findById(accountId).orElseThrow(() -> new RuntimeException("account not found"));
+        Account target = accountRepository.findById(accountTarget).orElseThrow(() -> new RuntimeException("account target not found"));
+        if(account.getBalance() < amount){
+            log.error("target balance must be greater than amount");
+            throw new IllegalArgumentException("target balance must be greater than amount");
+        }
+        account.setBalance(account.getBalance()-amount);
+        target.setBalance(target.getBalance()+amount);
+        TransferTransaction transfer = new TransferTransaction(amount, description, account, target);
+        transfer.setTargetAccount(target);
+        try {
+            transactionRepository.save(transfer);
+            log.info("deposit transaction success.");
+        }catch (Exception e){
+            log.error("deposit failed");
+        }
+        return transfer;
     }
 
     @Override
